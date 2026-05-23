@@ -6,7 +6,7 @@ from aiohttp import web
 
 # Твои данные (просто вставь их в кавычки)
 TELEGRAM_TOKEN = '8475528128:AAFGr3AHZvXVRBdcr3LK6hihwlZ7XfvVGnc'
-GOOGLE_API_KEY = 'AIzaSyA_Cpjxz6AiVi4fSc05vwDbQ3DhG-cwSs'
+GOOGLE_API_KEY = 'AIzaSyAXtq7TvaQfh8a7LPmKV-_0VnW_Bc-4ELs'
 
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
